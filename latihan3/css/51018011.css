@@ -51,12 +51,12 @@ body{
   color: #FF00FF;
   font-weight: bold;
 }
-section a:link, section a:visited{
+section a:link, section a:visited, p a:link, p a:visited{
   color: 	#0000CD;
   font-weight: bold;
   text-decoration: none;
 }
-section a:hover{
+section a:hover, p a:hover{
   color: #FFA500;
   text-decoration: underline;
 }
