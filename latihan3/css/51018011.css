@@ -5,6 +5,9 @@ body{
 }
 .gambar-resep{
   width: 350px;
+  margin: 10px;
+  margin-left: auto;
+  padding: 10px;
 }
 .hal{
   width: 980px;
