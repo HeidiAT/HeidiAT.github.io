@@ -1,0 +1,106 @@
+body{
+  background-image: url('../img/bg4.jpg');
+  color: 	maroon;
+  font-family: sans-serif;
+}
+.gambar-resep{
+  width: 350px;
+}
+.hal{
+  width: 980px;
+  background-color: #D2B48C;
+  margin: 5px;
+  margin-right: auto;
+  padding: 5px;
+  line-height: 1.5em;
+  text-align: center;
+}
+.hal a:link, .hal a:visited{
+  color: 	#008080;
+  text-decoration: none;
+}
+.hal a:hover{
+  color: #40E0D0;
+  font-weight: bold;
+}
+.halbawah{
+  width: 980px;
+  background-color: brown;
+  margin: 5px;
+  margin-left: auto;
+  padding: 5px;
+  line-height: 1.5em;
+  text-align: center;
+}
+.halbawah a:link, .halbawah a:visited{
+  color: #EE82EE;
+  text-decoration: none;
+}
+.halbawah a:hover{
+  color: 	#00FF7F;
+  font-weight: bold;
+}
+.dalam a:link, .dalam a:visited{
+  color: navy;
+  text-decoration: none;
+}
+.dalam a:hover{
+  color: #FF00FF;
+  font-weight: bold;
+}
+section a:link, section a:visited{
+  color: 	#0000CD;
+  font-weight: bold;
+  text-decoration: none;
+}
+section a:hover{
+  color: #FFA500;
+  text-decoration: underline;
+}
+.atas a:link, .atas a:visited{
+  color: 	#FF4500;
+  text-decoration: none;
+}
+.atas a:hover{
+  color: 	#F4A460;
+  font-weight: bold;
+  font-style: italic;
+}
+.konten{
+  font-family: gisha;
+  font-size: medium;
+}
+.menu a:link, .menu a:visited{
+  color: 	#90EE90;
+  text-decoration: none;
+}
+.menu a:hover{
+  color: tomato;
+  font-weight: bold;
+}
+.heading{
+  font-family: TimesNewRoman, cambria;
+  text-align: center;
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 10px;
+}
+p{
+  font-family: gisha;
+  text-align: justify;
+  text-indent: 2em;
+  font-size: medium;
+}
+.link{
+  list-style: none;
+}
+.menu{
+  width: 400px;
+  line-height: 2em;
+  background-color: #4169E1;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  text-align: center;
+}
