@@ -1,13 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
   background-image: url('../img/bg4.jpg');
   color: 	maroon;
   font-family: sans-serif;
+  padding: 20px;
+  overflow: auto;
 }
 .gambar-resep{
-  width: 350px;
+  width: 400px;
   margin: 10px;
   margin-left: auto;
+  margin-right: auto;
   padding: 10px;
+  display: block;
 }
 .hal{
   width: 980px;
@@ -42,6 +50,9 @@ body{
 .halbawah a:hover{
   color: 	#00FF7F;
   font-weight: bold;
+}
+header{
+  display: inline;
 }
 .dalam a:link, .dalam a:visited{
   color: navy;
