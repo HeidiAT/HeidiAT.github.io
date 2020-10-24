@@ -9,6 +9,15 @@ body{
   padding: 20px;
   overflow: auto;
 }
+.bio img{
+  height: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+table{
+  margin: 0 auto;
+}
 .gambar-resep{
   width: 400px;
   margin: 10px;
