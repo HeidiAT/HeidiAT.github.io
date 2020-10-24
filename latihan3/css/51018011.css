@@ -1,9 +1,9 @@
 *{
   box-sizing: border-box;
 }
-
 body{
   background-image: url('../img/bg4.jpg');
+  background-size: 100%;
   color: 	maroon;
   font-family: sans-serif;
   padding: 20px;
@@ -50,9 +50,6 @@ body{
 .halbawah a:hover{
   color: 	#00FF7F;
   font-weight: bold;
-}
-header{
-  display: inline;
 }
 .dalam a:link, .dalam a:visited{
   color: navy;
@@ -117,4 +114,10 @@ p{
   margin-right: auto;
   padding: 5px;
   text-align: center;
+}
+@media screen and (max-width: 153px) {
+  body{
+    width: 100%
+    padding: 10px;
+  }
 }
