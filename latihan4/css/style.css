@@ -166,7 +166,7 @@ nav li{
   font-size: 20px;
 }
 .hal{
-  width: 30%;
+  width: 40%;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d2d2f7+14,bcbbf9+28,9b99fc+42,cb6bf4+57,f78cf0+74,f4b2f0+87,f4b2f0+87 */
   background: rgb(210,210,247); /* Old browsers */
   background: -moz-linear-gradient(-45deg,  rgba(210,210,247,1) 14%, rgba(188,187,249,1) 28%, rgba(155,153,252,1) 42%, rgba(203,107,244,1) 57%, rgba(247,140,240,1) 74%, rgba(244,178,240,1) 87%, rgba(244,178,240,1) 87%); /* FF3.6-15 */
@@ -241,8 +241,5 @@ section a:hover, p a:hover{
     width: 100%;
     height: 110px;
     overflow: hidden;
-  }
-  nav{
-    width: 100%;
   }
 }
