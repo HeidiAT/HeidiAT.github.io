@@ -54,7 +54,17 @@ a:hover{
   text-align: center;
 }
 .gambar-resep{
-  width: 350px;
+  margin: 10px;
+  flex: 30%;
+  min-width: 200px;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px;
+  display: block;
 }
 .container{
   width: 80%;
@@ -206,19 +216,6 @@ section a:hover, p a:hover{
 .atas a:hover{
   color: 	#F4A460;
   font-style: italic;
-}
-.gambar-resep{
-  margin: 10px;
-  flex: 30%;
-  min-width: 200px;
-  border-radius: 20px;
-  border: 2px solid #fff;
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 3px;
-  display: block;
 }
 @media screen and (max-width: 600px) {
   .row{
