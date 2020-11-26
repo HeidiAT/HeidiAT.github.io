@@ -50,6 +50,10 @@
 h4 {
   text-align: center;
 }
+p{
+  text-indent: 2em;
+  text-align: justify;
+}
 .profil {
   display: block;
   margin-left: auto;
