@@ -21,11 +21,11 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f78cf0', endColorstr='#ffc938',GradientType=1 ); /* IE6-9 */
 }
 .bluechef-text {
-  color: #0000bf;
+  color: #6495ED;
 }
 .collection {
     margin: .5rem 0 1rem 0;
-    border: 1px solid #ec9de8;
+    border: 1px solid #90EE90;
     border-radius: 2px;
     overflow: hidden;
     position: relative;
@@ -34,17 +34,17 @@
     display: block;
     -webkit-transition: .25s;
     transition: .25s;
-    color: #0000bf;
+    color: #FF6347;
   }
   .collection .collection-item {
       background-color: #fff;
       line-height: 1.5rem;
       padding: 10px 20px;
       margin: 0;
-      border-bottom: 1px solid #ec9de8;
+      border-bottom: 1px solid #90EE90;
   }
   .collection a.collection-item:not(.active):hover {
-    background-color: #f1d7f0;
+    background-color: #E0FFFF;
 }
 h4 {
   text-align: center;
