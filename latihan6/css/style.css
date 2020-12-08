@@ -1,0 +1,76 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.bluechef {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f78cf0+0,ffc938+100 */
+  background: rgb(247,140,240); /* Old browsers */
+  background: -moz-linear-gradient(left,  rgba(247,140,240,1) 0%, rgba(255,201,56,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  rgba(247,140,240,1) 0%,rgba(255,201,56,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  rgba(247,140,240,1) 0%,rgba(255,201,56,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f78cf0', endColorstr='#ffc938',GradientType=1 ); /* IE6-9 */
+}
+.bluechef-text {
+  color: #6495ED;
+}
+.collection {
+    margin: .5rem 0 1rem 0;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+}
+.collection a.collection-item {
+    display: block;
+    -webkit-transition: .25s;
+    transition: .25s;
+    color: #FF6347;
+    font-weight: bold;
+  }
+  .collection .collection-item {
+      background-color: #E0E0E0;
+      line-height: 1.5rem;
+      padding: 10px 20px;
+      margin: 0;
+      border-bottom: 1px solid #fff;
+  }
+  .collection a.collection-item:not(.active):hover {
+    background-color: #FFFACD;
+}
+h4 {
+  text-align: center;
+}
+p{
+  text-indent: 2em;
+  text-align: justify;
+}
+.profil {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+.gambar-resep{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+}
+.data {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.text {
+  text-align: center;
+}
