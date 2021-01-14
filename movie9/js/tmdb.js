@@ -43,13 +43,14 @@ function getmovie(movie_id) {
   var detailHTML = "";
   data.results.forEach(function(movieid) {
     detailHTML +=`
-      <a href="./movie.html?id=${movieid.id}">
-        <div class="card-image waves-effect waves-block waves-light">
+      <a href="./movie.html?id=${movie.id}">
+        <div class="image waves-effect waves-block waves-light">
           <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}" />
         </div>
       </a>
       <div class="content text-center">
-        <strong>${movieid.title}</s
+        <strong>${movieid.title}</strong>
+        <br> Gendre: ${movie.genre_ids}
       </div>
     `;
   });
