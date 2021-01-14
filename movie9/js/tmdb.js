@@ -50,7 +50,7 @@ function getmovie(movie_id) {
       </a>
       <div class="content text-center">
         <strong>${movieid.title}</strong>
-        <br> Gendre: ${movie.genre_ids}
+        <br> Genre: ${movie.genre_ids}
       </div>
     `;
   });
