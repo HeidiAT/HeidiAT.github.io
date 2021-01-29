@@ -52,11 +52,6 @@ fetch(endpoint_url+ "movie/" + movie_id + "?api_key=" + key + "&language=en-US&p
 
   movinfo += `
   <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <h1 class="header center white-text light text-darken-1 customopacity">${data.original_title}</h1>
-      </div>
-    </div>
     <div class="parallax">
       <img src="https://image.tmdb.org/t/p/original${data.backdrop_path}"
            srcset="https://image.tmdb.org/t/p/w300${data.backdrop_path} 300w,
@@ -69,6 +64,7 @@ fetch(endpoint_url+ "movie/" + movie_id + "?api_key=" + key + "&language=en-US&p
   </div>
   <div class="container">
     <h3 class=center>${data.title}</h3>
+    <p class="center">${data.tagline}</p>
     <div class="col s12 m5">
       <div class="card">
         <div class="card-image waves-effect waves-block waves-light z-depth-3">
