@@ -68,7 +68,7 @@ fetch(endpoint_url+ "movie/" + movie_id + "?api_key=" + key + "&language=en-US&p
     </div>
   </div>
   <div class="container">
-    <h3>${data.title}</h3>
+    <h3 class=center>${data.title}</h3>
     <div class="col s12 m5">
       <div class="card">
         <div class="card-image waves-effect waves-block waves-light z-depth-3">
@@ -116,9 +116,10 @@ fetch(endpoint_url+ "movie/" + movie_id + "?api_key=" + key + "&language=en-US&p
       <tbody>
       </tbody>
     </table>
-      <h3>Sinopsis Cerita </h3>
-      <p>${data.overview}</p>
+    <br>
   </div>
+      <h3 class="center">Sinopsis Cerita </h3>
+      <p>${data.overview}</p>
   </div>
   `;
       document.getElementById("movie_detail").innerHTML = movinfo;
