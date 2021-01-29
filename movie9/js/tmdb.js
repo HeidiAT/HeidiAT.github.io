@@ -35,7 +35,7 @@ function getListMovie(services, sectiontitle) {
 }
 
 function getMovie(movie_id){
-fetch(endpoint_url+ "/movie/" + movie_id + "?api_key=" + key + "&language=en-US&page=1")
+fetch(endpoint_url+ "movie/" + movie_id + "?api_key=" + key + "&language=en-US&page=1")
  .then(status)
  .then(json)
  .then(function(data) {
