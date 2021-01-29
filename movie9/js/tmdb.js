@@ -68,6 +68,7 @@ fetch(endpoint_url+ "movie/" + movie_id + "?api_key=" + key + "&language=en-US&p
     </div>
   </div>
   <div class="container">
+    <h3>${data.title}</h3>
     <div class="col s12 m5">
       <div class="card">
         <div class="card-image waves-effect waves-block waves-light z-depth-3">
@@ -75,7 +76,7 @@ fetch(endpoint_url+ "movie/" + movie_id + "?api_key=" + key + "&language=en-US&p
         </div>
       </div>
     </div>
-      <strong>${data.title}</strong>
+
     <div class="col m7 s12">
     <table class="">
       <thead>
