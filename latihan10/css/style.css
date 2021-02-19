@@ -1,0 +1,96 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.bluechef {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#99b6d8+52,ffe18e+94,ffe18e+94 */
+  background: rgb(153,182,216); /* Old browsers */
+  background: -moz-linear-gradient(45deg,  rgba(153,182,216,1) 52%, rgba(255,225,142,1) 94%, rgba(255,225,142,1) 94%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  rgba(153,182,216,1) 52%,rgba(255,225,142,1) 94%,rgba(255,225,142,1) 94%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  rgba(153,182,216,1) 52%,rgba(255,225,142,1) 94%,rgba(255,225,142,1) 94%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99b6d8', endColorstr='#ffe18e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.bluechef-text {
+  color: #0000BF;
+}
+
+footer {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#31ea78+82,31ea78+82,ffda75+95 */
+  background: rgb(49,234,120); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(49,234,120,1) 82%, rgba(49,234,120,1) 82%, rgba(255,218,117,1) 95%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  rgba(49,234,120,1) 82%,rgba(49,234,120,1) 82%,rgba(255,218,117,1) 95%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  rgba(49,234,120,1) 82%,rgba(49,234,120,1) 82%,rgba(255,218,117,1) 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#31ea78', endColorstr='#ffda75',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.profil {
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4, .data {
+  text-align: center;
+}
+
+.block {
+ width: 100%;
+ margin-bottom: 5px;
+ margin-top: 5px
+}
