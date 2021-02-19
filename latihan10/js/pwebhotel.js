@@ -1,4 +1,4 @@
-const endpoint_url = 'http://51018011.pweb201.local/api';
+const endpoint_url = 'https://51018011.p-web.click/api';
 
 document.addEventListener("DOMContentLoaded", function(){
   getRoomRate();
