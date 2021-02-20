@@ -1,0 +1,231 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+@import url('https://fonts.googleapis.com/css2?family=Flavors&family=Lobster&family=Pangolin&display=swap&family=Jomhuria&family=Stalinist+One');
+.body{
+  font-family: 'swap';
+  padding: 0;
+  background-color: #FFF0F5;
+}
+h3{
+  font-family: 'Lobster';
+  font-size: 25px;
+  text-align: center;
+  border-right: 7px solid;
+  padding: 20px;
+  border-color: #F5DEB3;
+  text-shadow: 3px 3px 1px #FFDEAD;
+}
+h1{
+  font-family: 'Stalinist One';
+}
+h2{
+  font-family: 'Jomhuria';
+  color: #FFE4E1;
+}
+.card{
+  box-shadow: 0 0px 5px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #FFFFF0;
+  background-size: auto;
+}
+.inline {
+  display: block;
+  width: 70%;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+button{
+  color: white;
+}
+.card-img{
+  display: block;
+}
+.img-bahan{
+  display: inline-block;
+  height: 55px;
+  padding: 5px;
+}
+.imgkue{
+  display: block;
+  margin-right: auto;
+  width: 350px;
+  padding: 10px;
+}
+.kue{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  padding: 10px;
+}
+.image{
+  height: 150px;
+}
+.bg {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#86abd6+5,99b6d8+40,ffe18e+84,ffd972+100 */
+  background: rgb(134,171,214); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(134,171,214,1) 5%, rgba(153,182,216,1) 40%, rgba(255,225,142,1) 84%, rgba(255,217,114,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  rgba(134,171,214,1) 5%,rgba(153,182,216,1) 40%,rgba(255,225,142,1) 84%,rgba(255,217,114,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  rgba(134,171,214,1) 5%,rgba(153,182,216,1) 40%,rgba(255,225,142,1) 84%,rgba(255,217,114,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86abd6', endColorstr='#ffd972',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.text{
+  font-family: 'Flavors';
+  color: #00FA9A;
+  font-size: 45px;
+}
+.video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ct a{
+  color: #708090;
+  font-weight: bold;
+}
+.right{
+  margin-left: auto;
+  margin-right: 5px;
+}
+.card{
+  box-shadow: 0 0px 5px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: #FFFFF0;
+  background-size: auto;
+}
+.jumbotron{
+  padding: 15px;
+  text-shadow: 3px 4px 0px #708090;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2aa6f+1,f2aa6f+25,f2aa6f+25,efb586+50,f2aa6f+76,f4a460+100,f2aa6f+100 */
+  background: rgb(242,170,111); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(242,170,111,1) 1%, rgba(242,170,111,1) 25%, rgba(242,170,111,1) 25%, rgba(239,181,134,1) 50%, rgba(242,170,111,1) 76%, rgba(244,164,96,1) 100%, rgba(242,170,111,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  rgba(242,170,111,1) 1%,rgba(242,170,111,1) 25%,rgba(242,170,111,1) 25%,rgba(239,181,134,1) 50%,rgba(242,170,111,1) 76%,rgba(244,164,96,1) 100%,rgba(242,170,111,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  rgba(242,170,111,1) 1%,rgba(242,170,111,1) 25%,rgba(242,170,111,1) 25%,rgba(239,181,134,1) 50%,rgba(242,170,111,1) 76%,rgba(244,164,96,1) 100%,rgba(242,170,111,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2aa6f', endColorstr='#f2aa6f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.header{
+  font-family: 'Lobster';
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 3px 3px 1px #F0E68C;
+}
+main{
+  padding: 20px;
+  overflow: auto;
+}
+#content{
+  float: left;
+  width: 75%;
+}
+aside{
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+  text-align: center;
+}
+p{
+  text-indent: 2em;
+  text-align: justify;
+}
+.ikue {
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.profil {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+.data {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+footer {
+  padding: 5px;
+  color: #FFFACD;
+  font-weight: bold;
+  font-size: 16.5px;
+  font-family: 'Pangolin';
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#86abd6+5,99b6d8+40,ffe18e+84,ffd972+100 */
+  background: rgb(134,171,214); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(134,171,214,1) 5%, rgba(153,182,216,1) 40%, rgba(255,225,142,1) 84%, rgba(255,217,114,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  rgba(134,171,214,1) 5%,rgba(153,182,216,1) 40%,rgba(255,225,142,1) 84%,rgba(255,217,114,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  rgba(134,171,214,1) 5%,rgba(153,182,216,1) 40%,rgba(255,225,142,1) 84%,rgba(255,217,114,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86abd6', endColorstr='#ffd972',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.link{
+  list-style: none;
+}
+.blockmenu{
+  width: 220px;
+  height: 150px;
+  list-style: none;
+  text-align: center;
+  float: left;
+  margin: 25px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 3px 3px 5px grey;
+  overflow: hidden;
+  display: block;
+}
+.iconmenu{
+  width: 220px;
+  height: 110px;
+  overflow: hidden;
+}
+.iconmenuing{
+  width: 100%;
+}
+.textmenu{
+  padding: 5px;
+  font-size: 15px;
+}
+.atas{
+  margin: 5px;
+  text-align: right;
+}
+.atas a{
+  color: #FF6347;
+  text-decoration: none;
+  font-weight: bold;
+}
+.atas a:hover{
+  color: 	#DA70D6;
+  font-style: italic;
+}
+.card-footer{
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo{
+  padding: 5px;
+}
+@media screen and (max-width:1000px) {
+  #content{
+    width: 75%;
+    padding: 0'
+  }
+  aside{
+    width: 30%
+    padding:0;
+  }
+  .container, .ikue, .imgkue{
+    width: 100%;
+    padding: 0;
+  }
+}
