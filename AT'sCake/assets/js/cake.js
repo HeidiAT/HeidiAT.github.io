@@ -1,4 +1,4 @@
-const endpoint_url="http://51018011.p-web.local/api";
+const endpoint_url="http://51018011.p-web.click/backend/api";
 
 function getResepKering() {
   fetch(endpoint_url + "/resep/kuekering")
